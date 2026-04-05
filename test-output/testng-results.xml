@@ -2,19 +2,19 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-05T19:22:54 IST" name="Suite" finished-at="2026-04-05T19:23:24 IST" duration-ms="29867">
+  <suite started-at="2026-04-05T23:29:21 IST" name="Suite" finished-at="2026-04-05T23:29:33 IST" duration-ms="12170">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runnerclass@11fc564b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2026-04-05T19:22:54 IST" name="Test" finished-at="2026-04-05T19:23:24 IST" duration-ms="29867">
+    <test started-at="2026-04-05T23:29:21 IST" name="Test" finished-at="2026-04-05T23:29:33 IST" duration-ms="12170">
       <class name="GenaricLib.Baseclass">
-        <test-method is-config="true" signature="dbConnection()[pri:0, instance:GenaricLib.Baseclass@623a8092]" started-at="2026-04-05T19:22:54 IST" name="dbConnection" finished-at="2026-04-05T19:22:54 IST" duration-ms="398" status="PASS">
+        <test-method is-config="true" signature="dbConnection()[pri:0, instance:GenaricLib.Baseclass@623a8092]" started-at="2026-04-05T23:29:21 IST" name="dbConnection" finished-at="2026-04-05T23:29:21 IST" duration-ms="428" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dbConnection -->
-        <test-method is-config="true" signature="selectBrowser(java.lang.String)[pri:0, instance:GenaricLib.Baseclass@623a8092]" started-at="2026-04-05T19:22:54 IST" name="selectBrowser" finished-at="2026-04-05T19:22:55 IST" duration-ms="1055" status="PASS">
+        <test-method is-config="true" signature="selectBrowser(java.lang.String)[pri:0, instance:GenaricLib.Baseclass@623a8092]" started-at="2026-04-05T23:29:21 IST" name="selectBrowser" finished-at="2026-04-05T23:29:27 IST" duration-ms="5581" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -25,13 +25,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectBrowser -->
-        <test-method is-config="true" signature="closeDbConnection()[pri:0, instance:GenaricLib.Baseclass@623a8092]" started-at="2026-04-05T19:23:24 IST" name="closeDbConnection" finished-at="2026-04-05T19:23:24 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="closeDbConnection()[pri:0, instance:GenaricLib.Baseclass@623a8092]" started-at="2026-04-05T23:29:33 IST" name="closeDbConnection" finished-at="2026-04-05T23:29:33 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDbConnection -->
       </class> <!-- GenaricLib.Baseclass -->
       <class name="Runner.Runnerclass">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.Runnerclass@11fc564b]" started-at="2026-04-05T19:22:55 IST" name="setUpClass" finished-at="2026-04-05T19:22:56 IST" duration-ms="205" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.Runnerclass@11fc564b]" started-at="2026-04-05T23:29:27 IST" name="setUpClass" finished-at="2026-04-05T23:29:27 IST" duration-ms="256" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -42,7 +42,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runnerclass@11fc564b]" started-at="2026-04-05T19:22:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-04-05T19:23:23 IST" duration-ms="27172" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runnerclass@11fc564b]" started-at="2026-04-05T23:29:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-04-05T23:29:32 IST" duration-ms="4753" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -58,7 +58,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.Runnerclass@11fc564b]" started-at="2026-04-05T19:23:23 IST" name="tearDownClass" finished-at="2026-04-05T19:23:24 IST" duration-ms="1403" status="FAIL">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.Runnerclass@11fc564b]" started-at="2026-04-05T23:29:32 IST" name="tearDownClass" finished-at="2026-04-05T23:29:33 IST" duration-ms="1548" status="FAIL">
           <exception class="java.lang.AbstractMethodError">
             <message>
               <![CDATA[Receiver class org.apache.poi.xssf.usermodel.XSSFColor does not define or inherit an implementation of the resolved method 'abstract byte[] getStoredRGB()' of abstract class org.apache.poi.ss.usermodel.ExtendedColor.]]>
