@@ -1,4 +1,4 @@
-@smoke
+@smoke 
 Feature: User check home module features
 
 Scenario: user check catagory and brands tab values
