@@ -10,7 +10,7 @@ import io.cucumber.testng.CucumberOptions;
 			    "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 			    "rerun:target/failedTC.txt"
 			},
-		tags="@rig"
+		tags="@smoke"
 		)
 public class Runnerclass extends AbstractTestNGCucumberTests {
 
